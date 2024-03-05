@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0e4c49;
+}
+
+.container {
+    width: 80%; 
+    margin: auto; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffeb;
+}
+#main-btn { 
+    display: block; 
+    width: 200px; 
+    margin: 20px auto; 
+    text-align: center; 
+    padding: 10px; 
+    background: #ffff; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#main-btn:hover {
+    background-color: #000000;
+}
+
+.video-medium { /* Updated class name */
+    width: 45%; /* Adjust this value as needed */
+    height: auto%;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #ffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.responsive-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.venture-logo {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+#back-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* style.css */
+.responsive-image {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+.venture-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Adds space above and below the logo */
+}
+/* style.css */
+.container {
+    /* Existing styles */
+}
+
+.logo-container {
+    text-align: center; /* Center logo if it's smaller than the container */
+    margin-bottom: 20px; /* Add space below the logo */
+}
+
+.venture-logo {
+    max-width: 100%;
+    height: auto;
+    /* Center the logo image if desired, or remove margin for left alignment */
+    margin: 0 auto;
+}
+
+.content-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adjust gap as needed */
+}
+
+.image-container {
+    flex-basis: 30%; /* Adjust the width of the image container as needed */
+}
+
+.responsive-image {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto;
+}
+
+.text-content {
+    flex-basis: 70%; /* Adjust text width as needed */
+    /* Existing styles */
+}
+
+/* Add or adjust these styles in your style.css file */
+
+.image-container {
+    margin-bottom: 20px; /* Adjust the value as needed */
+    width: 100%; /* Adjust this value as needed, can be less than 100% if the container is too wide */
+    height: auto; /* This will maintain the aspect ratio of the image */
+}
+
+.text-content {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.pdf-embed {
+    width: 100%; /* Set to 100% of container width */
+    height: 700px; /* Adjust height as needed */
+    margin-top: 20px; /* Adds space above the PDF embed */
+    border: none; /* Removes the border */
+}
+.image-container img {
+    width: 70%; /* Adjust this value to control the size of the image */
+    height: auto; /* This will maintain the aspect ratio */
+    display: block; /* This ensures the image is a block-level element */
+    margin: 0 auto; /* This will center the image within its container */
+}
+
+
